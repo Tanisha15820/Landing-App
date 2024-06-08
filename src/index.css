@@ -447,7 +447,6 @@ code {
   height: auto; /* Optionally adjust height */
 }
 
-
 /* Example CSS */
 .container {
   display: flex;
@@ -464,3 +463,4 @@ code {
 .left-text h2 {
   color: #FF4500; /* Change "your_desired_color" to the color you want */
 }
+
