@@ -1,0 +1,466 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.website-name {
+  font-size: 24px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px; /* Increase font size */
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+}
+
+/* Left side content styles */
+.left-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Financial decision section without box styling */
+.financial-decision-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Financial decision heading styles */
+.financial-decision-heading h2 {
+  font-size: 48px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  text-align: left; /* Align text to the left */
+}
+
+/* Financial decision definition styles */
+.financial-decision-definition {
+  font-size: 20px; /* Larger font size */
+  margin-top: 10px;
+  text-align: left; /* Align text to the left */
+  margin-bottom: 20px; /* Add space below the definition */
+}
+
+/* Financial decision buttons styles */
+.financial-decision-buttons {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+  margin-top: 20px;
+  margin-bottom: 20px; /* Add space below the buttons */
+}
+
+.get-started-button,
+.watch-video-button {
+  margin-right: 10px;
+  padding: 15px 30px; /* Increase padding for bigger size */
+  font-size: 18px; /* Bigger text size */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Financial decision image styles */
+.financial-decision-image {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Center the image */
+}
+
+.financial-decision-image img {
+  max-width: 50%; /* Smaller image size */
+  height: auto;
+}
+
+/* 🔥ulfry text styles */
+.ulfry-text {
+  font-size: 48px; /* Larger font size */
+  font-weight: bold;
+  margin-top: 20px; /* Space above the text */
+}
+
+/* Right side image styles */
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* SecondPage styles */
+.SecondPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF4500;
+}
+
+.website-name {
+  font-size: 24px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Left side content styles */
+.left-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-side-image {
+  width: 100%;
+}
+
+.left-side-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Right side content styles */
+.right-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-heading {
+  font-size: 36px; /* Increase font size for emphasis */
+  margin-bottom: 20px; /* Add space below the heading */
+  color: black; /* Set text color to black */
+}
+
+.features-list {
+  margin-top: 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.features-list h1 {
+  font-size: 28px; /* Increase font size for subheading */
+  margin-bottom: 10px; /* Add space below the subheading */
+}
+
+.features-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features-list li {
+  margin-top: 10px;
+  font-size: 20px; /* Adjust font size for list items */
+  line-height: 1.4; /* Increase line height for better readability */
+}
+
+.features-list li b {
+  font-weight: bold;
+}
+
+/* ThirdPage styles */
+.ThirdPage {
+  display: flex;
+  flex-direction: column;
+}
+
+/* First Part styles */
+.first-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-text,
+.right-image {
+  flex: 1;
+}
+
+.left-text h2,
+.right-text h2 {
+  font-size: 24px;
+  color: black; /* Set text color to black */
+}
+
+.advantages-content,
+.uifry-content {
+  text-align: left; /* Align text to the left */
+  color: black; /* Set text color to black */
+}
+
+.advantages-content h3,
+.uifry-content h3 {
+  font-size: 20px; /* Set font size */
+}
+
+.advantages-content p,
+.uifry-content p {
+  font-size: 18px; /* Set font size */
+}
+
+/* Second Part styles */
+/* SecondPage.css or index.css */
+.SecondPage {
+  margin: 0;
+  padding: 0;
+}
+
+.second-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-image,
+.right-text {
+  flex: 1;
+}
+
+.left-image img,
+.right-image img {
+  width: 100%;
+  height: auto;
+}
+
+.right-text h2 {
+  font-size: 24px;
+}
+
+/* FourthPage styles */
+.FourthPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Testimonial Section styles */
+.testimonial-section {
+  text-align: center;
+}
+
+.testimonial-heading {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.testimonial-subheading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Content Section styles */
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 50px; /* Adjust as needed */
+}
+
+.left-image {
+  flex: 1;
+}
+
+.left-image img {
+  width: 100%;
+  height: auto;
+}
+
+.right-text {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.right-text h3 {
+  font-size: 24px;
+}
+
+.right-text p {
+  font-size: 18px;
+}
+
+/* FifthPage styles */
+.FifthPage {
+  text-align: center;
+}
+
+/* FAQ Section styles */
+.faq-section {
+  margin-bottom: 20px;
+}
+
+/* FAQ Grid styles */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+/* FAQ Cell styles */
+.faq-cell {
+ 
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.faq-cell:hover {
+  background-color: #f0f0f0;
+}
+
+/* Expanded Cell styles */
+.expanded {
+  height: auto;
+}
+
+/* Question styles */
+.question {
+  font-weight: bold;
+}
+
+/* Answer styles */
+.answer {
+  margin-top: 10px;
+}
+
+/* Black Cell styles */
+/* Add these classes for black and grey cells */
+.black-cell {
+  background-color: #FF4500;
+  color: white;
+}
+
+.grey-cell {
+  background-color: grey;
+  color: black;
+}
+
+.spacer {
+  height: 100px; /* Adjust the height as needed */
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.SixthPage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.subscribe-button button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 30px; /* Adjust padding for larger size */
+  font-size: 20px; /* Increase font size */
+  cursor: pointer;
+  border-radius: 8px; /* Increase border radius for smoother edges */
+  width: auto; /* Optionally adjust width */
+  height: auto; /* Optionally adjust height */
+}
+
+
+/* Example CSS */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Adjust as needed */
+}
+/* App.css or index.css */
+.App {
+  margin: 0;
+  padding: 0;
+}
+/* Add this to your CSS file */
+.features-heading h2,
+.left-text h2 {
+  color: #FF4500; /* Change "your_desired_color" to the color you want */
+}
